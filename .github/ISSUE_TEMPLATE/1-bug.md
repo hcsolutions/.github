@@ -9,7 +9,7 @@ projects: ["hcsolutions/3"]
 
 <!-- A clear and concise description of what the problem is. -->
 
-## Details
+## Summary
 
 ### Context
 
