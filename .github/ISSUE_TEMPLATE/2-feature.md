@@ -7,9 +7,11 @@ assignees: ""
 projects: ["hcsolutions/3"]
 ---
 
-<!--
-**Origin:**
-- Link to relevant Discussion, planning issue or freshdesk ticket
+<!-- REMOVE NON-APPLICABLE
+**Discussion:**
+- Link to relevant Discussion
+
+**Freshdesk ticket:**
 -->
 
 <!--
