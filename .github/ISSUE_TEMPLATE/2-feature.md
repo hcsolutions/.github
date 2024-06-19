@@ -7,14 +7,21 @@ assignees: ""
 projects: ["hcsolutions/3"]
 ---
 
-**Project:** 
-**Prerequisites:** 
+<!--
+**Origin:**
+- Link to relevant Discussion, planning issue or freshdesk ticket
+-->
+
+<!--
+**Prerequisite(s):**
+- #
+-->
 
 <!-- A clear and concise description of what the feature needs to achieve. -->
 
 ## Acceptance Criteria
-<!-- EXAMPLE: -->
-<!-- ### 1. Visit Status at-a-glance
+
+<!-- EXAMPLE:
 **AS A** member of the Enquiries team
 **GIVEN** I am viewing the details of an enquiry
 **AND** a visit has been booked for that enquiry
@@ -23,14 +30,30 @@ projects: ["hcsolutions/3"]
 **SO** I know exactly what needs to happen next
 -->
 
+---
+
+<!--
 ## Business Requirements
-<!-- Data validations? Permissions? -->
 
+%% Provide details about data validations, permissions and any other pertinent business logic. %%
+
+
+<!-- OPTIONAL
+## UX & Service Design
+
+%% Include UX / Service Design considerations e.g. where the feature will be accessed from, formatting specifics, non-standard design elements etc. When appropriate - such as when introducing new design patterns or elements - attach design prototypes/wireframes. %%
+-->
+
+<!--
 ## Technical Requirements
-<!-- Will this rely on a new or existing service? Any new concerns? -->
 
-## Further Context <!-- Optional -->
-<!-- Quotes from business SMEs, discussion transcripts etc. -->
+%% Will this rely on a new or existing service? Any new concerns? %%
+-->
 
-## Design Prototypes <!-- Optional -->
-<!-- Attach design prototypes here if the task involves design patterns that haven't yet been fully established in the system. -->
+
+<!-- OPTIONAL
+---
+## Further Context
+
+%% Quotes from business SMEs, discussion transcripts etc. %%
+-->
