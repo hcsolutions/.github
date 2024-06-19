@@ -1,5 +1,5 @@
 ---
-name: 🐞 Bug
+name: 🐞 Bugfix
 about: "Capture requirements for non-trivial bug fixes (i.e. taking longer than the 1-hour timebox)"
 title: "[BUG] "
 labels: ["bug"]
