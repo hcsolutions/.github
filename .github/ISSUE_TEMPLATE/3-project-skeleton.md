@@ -1,6 +1,6 @@
 ---
 name: 🏗 Project Skeleton
-about: "Capture advance requirements for a project's skeleton"
+about: "[SOFT DEPRECATED - Use an Arch/Spec Discussion instead] Capture advance requirements for a project's skeleton"
 title: ""
 labels: ["feature", "skeleton"]
 assignees: ""
