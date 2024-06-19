@@ -1,6 +1,6 @@
 ---
 name: 🐞 Bug
-about: "Bring attention to unexpected or erroneous system behaviour"
+about: "Capture requirements for non-trivial bug fixes (i.e. taking longer than the 1-hour timebox)"
 title: "[BUG] "
 labels: ["bug"]
 assignees: ""
