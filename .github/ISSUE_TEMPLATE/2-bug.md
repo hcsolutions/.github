@@ -8,7 +8,7 @@ projects: ["hcsolutions/3"]
 ---
 
 **Bug Report:**
-  - # <!-- Discussion Link -->
+  - <!-- Discussion Link -->
 
 <!-- A clear and concise description of what the problem is. -->
 
