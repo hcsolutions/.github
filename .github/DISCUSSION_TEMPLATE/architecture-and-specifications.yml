@@ -41,6 +41,12 @@ body:
       value: |
         > 🚧 **This section is in-progress.**
 
+        <!-- Create and link to a new Epic, to work on use cases (issues):
+          https://github.com/hcsolutions/.github/issues/new?assignees=&labels=epic&projects=&template=3-epic.md&title=
+        -->
+
+        - <!-- Epic magi-link -->
+        
         ---
   - type: textarea
     attributes:
