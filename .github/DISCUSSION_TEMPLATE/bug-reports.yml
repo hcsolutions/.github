@@ -1,0 +1,51 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+
+        Provide initial details and context for a bug or instance of unexpected behaviour. The report will be triaged and prioritised accordingly.
+
+        > [!IMPORTANT]
+        > Bug reports are not intended to be the place for long-lived technical investigations. Provide minimal detail required for prioritisation. Then, once prioritised:
+        > 1. If Engineering estimates a fix can be developed quickly (within 1 hour), attempt the fix without further papertrailing.
+        >   a. If successful, raise the PR and link to it in a reply on this bug report. Once reviewed and deployed, the bug report can be closed.
+        >   b. If unsuccessful, proceed to Step 2.
+        > 2. If root cause is clear and a fix has been identified raise a [Bugfix](https://github.com/hcsolutions/.github/issues/new?assignees=&labels=bug&projects=&template=2-bugfix.md&title=%5BBUG%5D+) issue and prioritise accordingly. Then close this bug report with outcome details and a link to the issue. 
+        > 3. If root cause is unclear or a decision needs to be made regarding a solution, raise a [Proposal](https://github.com/hcsolutions/careportal/discussions/new?category=proposals) and discuss options with the team. The outcome can then feed back to step 2.
+  - type: textarea
+    attributes:
+      label: Source
+      description: |
+        Link to the source of the bug report if applicable.
+      value: |
+        **Source:**
+        
+        - [HoneyBadger]()
+        - [Freshdesk]()
+  - type: textarea
+    attributes:
+      label: Context
+      description: |
+        What was the user attempting to do?
+  - type: textarea
+    attributes:
+      label: Expected Behaviour
+      description: |
+        What should have happened?
+  - type: textarea
+    attributes:
+      label: Actual Behaviour
+      description: |
+        What actually happened?
+  - type: textarea
+    attributes:
+      label: Severity
+      description: |
+        What's the impact of this bug? Are any workarounds available?
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: |
+        Provide any extra information that may be useful for triage, diagnostics or indentifying a fix, such as screenshots or session context.
+        
