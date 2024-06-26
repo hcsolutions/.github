@@ -1,6 +1,6 @@
 ---
 name: 🌈 Epic
-about: "Capture, iterate and track high-level requirements for a new project or module"
+about: "Capture, iterate and track high-level requirements for a new project or module."
 title: ""
 labels: ["epic"]
 assignees: ""
