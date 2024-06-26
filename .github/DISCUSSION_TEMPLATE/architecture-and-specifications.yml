@@ -30,6 +30,7 @@ body:
         Link to the proposal discussion where this document was requested (if applicable), plus any other related discussions/issues.
       value: |
         **See also:**
+        
         - Proposal: #
         - #
   - type: textarea
@@ -38,7 +39,6 @@ body:
       description: |
         Provide an overview of the intended purpose of the module, model or library, along with any overarching architectural decisions.
       value: |
-        
         > 🚧 **This section is in-progress.**
 
         ---
@@ -48,7 +48,6 @@ body:
       description: |
         Provide rough notes and/or detailed guidance on UX and service design considerations such as user flows, access patterns and design elements. Wireframes, mockups or design prototypes are welcome but almost never required.
       value: |
-        
         > 🚧 **This section is in-progress.**
 
         ---
@@ -60,7 +59,6 @@ body:
 
         **DELETE IF NOT APPLICABLE**
       value: |
-
         > 🚧 **This section is in-progress.**
 
         <!-- ERD HERE -->
@@ -80,7 +78,6 @@ body:
 
         **DELETE IF NOT APPLICABLE**
       value: |
-
         > 🚧 **This section is in-progress.**
 
         <!--
@@ -126,7 +123,6 @@ body:
 
         **DELETE IF NOT APPLICABLE**
       value: |
-
         > 🚧 **This section is in-progress.**
 
         <!--
@@ -159,7 +155,6 @@ body:
 
         **DELETE IF NOT APPLICABLE**
       value: |
-
         > 🚧 **This section is in-progress.**
 
         <!--
@@ -183,7 +178,6 @@ body:
 
         **DELETE IF NOT APPLICABLE**
       value: |
-
         > 🚧 **This section is in-progress.**
 
         <!--
@@ -211,7 +205,6 @@ body:
       description: |
         Provide details and supporting context for any background jobs or service objects required by this workpiece.
       value: |
-
         > 🚧 **This section is in-progress.**
 
         <!--
@@ -241,7 +234,6 @@ body:
       description: |
         Provide details or rough notes of any tasks necessary to support deployment and rollout of the changes detailed in this specification. This may include tasks such as data cleansing/imports, setting configuration or stakeholder training.
       value: |
-
         > 🚧 **This section is in-progress.**
   - type: textarea
     attributes:
@@ -251,9 +243,6 @@ body:
 
         Discussion comments may be a more appropriate place for some questions, particularly if they are open-ended or require a wider discussion. The outcomes of such questions can be incorporated into the specification body later, such as by linking from this section and providing a summary.
       value: |
-        ---
-        ## Questions
-
         <!--
         ### Business
 
