@@ -23,7 +23,7 @@ body:
 
         </details>
         ```
-  - type: input
+  - type: textarea
     attributes:
       label: Related Links
       description: |
