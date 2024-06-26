@@ -41,13 +41,13 @@ body:
       value: |
         > 🚧 **This section is in-progress.**
 
-        <!-- Create and link to a new Epic, to work on use cases (issues):
-          https://github.com/hcsolutions/.github/issues/new?assignees=&labels=epic&projects=&template=3-epic.md&title=
-        -->
-
         - <!-- Epic magi-link -->
         
         ---
+  - type: markdown
+    attributes:
+      value: |
+        [Create a new Epic](https://github.com/hcsolutions/.github/issues/new?assignees=&labels=epic&projects=&template=3-epic.md&title=) for work on use cases (issues) and link it in the section above.
   - type: textarea
     attributes:
       label: Service Design
