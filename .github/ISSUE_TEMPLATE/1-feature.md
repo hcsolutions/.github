@@ -23,21 +23,22 @@ projects: ["hcsolutions/3"]
 
 ## Acceptance Criteria
 
-<!-- EXAMPLE:
-**AS A** member of the Enquiries team
-**GIVEN** I am viewing the details of an enquiry
-**AND** a visit has been booked for that enquiry
-**I NEED** to be able to instantly see that a visit has been booked for this enquiry
-**AND** see the time/date for when that visit will take place
-**SO** I know exactly what needs to happen next
--->
+<!-- DELETE UNREQUIRED CLAUSES -->
 
----
+> **AS A** user
+> **GIVEN**
+> **AND**
+> **I NEED**
+> **AND**
+> **SO**
 
 <!--
-## Business Requirements
+### Business Requirements
 
 %% Provide details about data validations, permissions and any other pertinent business logic. %%
+
+---
+-->
 
 
 <!-- OPTIONAL
@@ -51,7 +52,6 @@ projects: ["hcsolutions/3"]
 
 %% Will this rely on a new or existing service? Any new concerns? %%
 -->
-
 
 <!-- OPTIONAL
 ---
