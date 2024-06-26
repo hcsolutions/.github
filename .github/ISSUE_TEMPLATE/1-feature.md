@@ -42,7 +42,7 @@ projects: ["hcsolutions/3"]
 
 
 <!-- OPTIONAL
-## UX & Service Design
+## Design Considerations
 
 %% Include UX / Service Design considerations e.g. where the feature will be accessed from, formatting specifics, non-standard design elements etc. When appropriate - such as when introducing new design patterns or elements - attach design prototypes/wireframes. %%
 -->
