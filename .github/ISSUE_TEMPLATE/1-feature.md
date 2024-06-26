@@ -1,6 +1,6 @@
 ---
 name: ✨ Feature
-about: "Capture requirements for a new feature"
+about: "Capture requirements for a new feature."
 title: ""
 labels: ["feature"]
 assignees: ""
