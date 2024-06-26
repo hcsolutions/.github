@@ -2,110 +2,89 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Architecture and Specifications
-
-        Thank you for contributing a specification or architectural discussion.
+        ## Architecture and Specifications
 
         This form provides a **template** for the architectural specification of a module, model or library. It is intended to provide a structured way to document the architecture and specifications of a planned workpiece.
 
         > [!TIP]
-        > It is understood that, often, the creation of a specification proposal is the first step of the architecting process. As such many of the details requested by the following form will likely not be known at the time of submission. **This is perfectly acceptable.** Please fill out the form to the best of your ability, leaving any unknowns blank to be filled in later.
+        > It is normal to not have details for each section in the template at this stage of the architecture process. Please fill out the form to the best of your ability, any blank sections can be filled in later.
         >
         > Any headings or sections that are not applicable to your specification can be removed.
+
+        In lieu of internal links (currently a limitation of Discussions), it is recommended that particularly large sections are wrapped in an expandable `<details>` element, like so:
+        ```md
+        ### Schema
+
+        Brief description.
+
+        <details><summary>See more...</summary>
+
+        Expandable content (with a blank line seperating from the opening/closing tags)
+
+        </details>
+        ```
   - type: input
     attributes:
-      label: Discussion
+      label: Related Links
       description: |
-        Link to the proposal discussion where this document was requested, if applicable.
+        Link to the proposal discussion where this document was requested (if applicable), plus any other related discussions/issues.
       value: |
-        **Discussion:** #
+        **See also:**
+        - Proposal: #
+        - #
   - type: textarea
-    id: overview
     attributes:
       label: Overview
       description: |
         Provide an overview of the intended purpose of the module, model or library, along with any overarching architectural decisions.
       value: |
-        ## Overview
-
+        
         > 🚧 **This section is in-progress.**
-  - type: textarea
-    id: use-cases
-    attributes:
-      label: Use Cases
-      description: |
-        Provide a list of known use cases for the module, model or library. Each use case should map roughly to an intended issue heading.
 
-        Use cases should be written from a behavioural perspective - rather than implementation - and listed in rough order of priority and dependency.
-
-        If necessary (particularly for larger specifications), organise the use cases into sections e.g. per-model.
-      value: |
         ---
-        ## Use Cases
-
-        The following is a summary of known use cases for <!-- [[ WORKPIECE ]] --> in rough order of priority and dependency.
-
-        > 🚧 **This section is in-progress.**
-
-        - ...
   - type: textarea
-    id: service-design
     attributes:
       label: Service Design
       description: |
-        Provide detailed guidance and/or rough notes on UX and service design considerations such as user flows, access patterns and design elements.
-
-        Provide wireframes, mockups or design prototypes if possible (likely needs to be added after submission due to templating limitations).
+        Provide rough notes and/or detailed guidance on UX and service design considerations such as user flows, access patterns and design elements. Wireframes, mockups or design prototypes are welcome but almost never required.
       value: |
-        ---
-        ## Service Design
-
+        
         > 🚧 **This section is in-progress.**
 
+        ---
   - type: textarea
-    id: data-architecture
     attributes:
       label: Data Architecture
       description: |
-        For a **high-level specification** (i.e. modules or libraries covering many models), provide details of the data architecture. For example table/model names, brief descriptions of each, and relationships between them. Provide links to supporting specifications where appropriate.
-
-        Provide an Entity Relationship Diagram (ERD) if possible (likely needs to be added after submission due to templating limitations).
+        For a **high-level specification** (i.e. modules or libraries covering many models), provide details of the data architecture. For example table/model names, brief descriptions of each, and relationships between them. Provide links to supporting specifications where appropriate and an Entity Relationship Diagram (ERD) if possible.
 
         **DELETE IF NOT APPLICABLE**
       value: |
-        ---
-        ## Architecture
-
-        ### Data
-
-        <!-- ERD HERE -->
 
         > 🚧 **This section is in-progress.**
 
+        <!-- ERD HERE -->
+
         <!--
-        - **[Foo](https://github.com/hcsolutions/careportal/discussions/9999)** - Description of Foo
+        - #9999 - Brief description
         - ...
+
+        ---
         -->
   - type: textarea
     id: schema
     attributes:
       label: Schema
       description: |
-        For a **low-level specification** (i.e. individual models or small modules/libraries with only one or two models), provide details of the data structure such as table/model names, brief descriptions of each, and a structured specification of columns.
-
-        Provide a migration snippet if appropriate.
+        For a **low-level specification** (i.e. individual models or small modules/libraries with only one or two models), provide details of the data structure such as table/model names, brief descriptions of each, and a structured specification of columns. Provide a migration snippet if appropriate.
 
         **DELETE IF NOT APPLICABLE**
       value: |
-        ---
-        ## Architecture
-
-        ### Schema
 
         > 🚧 **This section is in-progress.**
 
         <!--
-        Fields in bold are IDs -->
+        Fields in bold are IDs.
         Common type reference:
         uuid, string, integer, boolean, datetime, date, time, jsonb[], jsonb{}, decimal, text, bigint
         -->
@@ -122,6 +101,7 @@ body:
         - `timestamps`
         -->
 
+        <!--
         #### Migration
 
         ```rb
@@ -136,8 +116,9 @@ body:
         # end
         ```
 
+        ---
+        -->
   - type: textarea
-    id: model-definition
     attributes:
       label: Model Definition
       description: |
@@ -145,11 +126,10 @@ body:
 
         **DELETE IF NOT APPLICABLE**
       value: |
-        ---
-        ### Model Definition
 
         > 🚧 **This section is in-progress.**
 
+        <!--
         ```rb
         # CONCERNS (Delete as appropriate)
         # ---
@@ -162,15 +142,16 @@ body:
         # include Versioned
         # include Notifiable
 
-        # ASSOCIATIONS (Examples provided)
+        # ASSOCIATIONS
         # ---
         # belongs_to :foo
         # has_one :bar
         # has_many :baz
         ```
+
+        ---
         -->
   - type: textarea
-    id: routes-and-actions
     attributes:
       label: Routes & Actions
       description: |
@@ -178,8 +159,6 @@ body:
 
         **DELETE IF NOT APPLICABLE**
       value: |
-        ---
-        ### Routes & Actions
 
         > 🚧 **This section is in-progress.**
 
@@ -192,9 +171,11 @@ body:
         - `POST :create` (`...`)
         - `POST :_edit` (`.../edit`)
         - `PATCH :update` (`...`)
-        - <!-- 🔒 --> `PATCH :remove` (`.../remove`)
+        - `PATCH :remove` (`.../remove`)
+
+        ---
+        -->
   - type: textarea
-    id: concerns-and-mix-ins
     attributes:
       label: Concerns & Mix-Ins
       description: |
@@ -202,8 +183,6 @@ body:
 
         **DELETE IF NOT APPLICABLE**
       value: |
-        ---
-        ### Concerns & Mix-Ins
 
         > 🚧 **This section is in-progress.**
 
@@ -223,16 +202,15 @@ body:
           - `FooHelper#bar` _(`args, **opts`)_
             - Description of `#bar` and additional notes
             - Specification of `opts`
+        
+        ---
         -->
   - type: textarea
-    id: jobs-and-services
     attributes:
       label: Jobs & Services
       description: |
         Provide details and supporting context for any background jobs or service objects required by this workpiece.
       value: |
-        ---
-        ### Jobs & Services
 
         > 🚧 **This section is in-progress.**
 
@@ -254,58 +232,37 @@ body:
         Details of `FooService`'s intended purpose and logic, with psuedocode where appropriate.
 
         Details of `FooService`'s error and exception handling.
+        
+        ---
         -->
-
   - type: textarea
-    id: rollout
     attributes:
       label: Rollout
       description: |
         Provide details or rough notes of any tasks necessary to support deployment and rollout of the changes detailed in this specification. This may include tasks such as data cleansing/imports, setting configuration or stakeholder training.
       value: |
-        ---
-        ## Rollout
 
         > 🚧 **This section is in-progress.**
   - type: textarea
-    id: questions
     attributes:
       label: Questions
       description: |
         Provide a list of questions that need to be answered before the specification can be considered complete. Some questions may require BA input, others may be technical.
 
-        Discussion comments may be a more appropriate place for some questions, particularly if they are open-ended or require a wider discussion. The outcomes of such questions must be incorporated into the specification body.
+        Discussion comments may be a more appropriate place for some questions, particularly if they are open-ended or require a wider discussion. The outcomes of such questions can be incorporated into the specification body later, such as by linking from this section and providing a summary.
       value: |
         ---
         ## Questions
 
         <!--
+        ### Business
+
         ...Question?
 
         > _Answer_
-        -->
-  - type: textarea
-    id: implementation
-    attributes:
-      label: Implementation
-      description: |
-        Provide detailed guidance or rough notes regarding the technical requirements and implementation of **each use case** specified above.
-
-        This section will eventually inform the "Technical Requirements" sections of any issues created from this specification.
-      value: |
-        ---
-        ## Implementation
-
-        > 🚧 **This section is in-progress.**
-
-        <!--
-        ### [[ USE CASE 1 ]]
-
-        **Prerequisites:**
-          - [Foo](https://github.com/hcsolutions/careportal/discussions/9999)
-          - #9999
-
-        **Action(s):** `foo#index`
-
-        ...
+        
+        ### Technical
+        
+        - [Summary](link/to/discussion/comment)
+          - Summarised outcome
         -->
