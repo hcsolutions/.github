@@ -1,0 +1,11 @@
+contact_links:
+  - name: 💭 Considerations
+    url: https://github.com/hcsolutions/careportal/discussions/new?category=considerations
+    about: Please raise enhancement ideas and bug reports as discussions for triage.
+  - name: 📝 Proposals
+    url: https://github.com/hcsolutions/careportal/discussions/new?category=proposals
+    about: Please use Discussions for proposals.
+  - name: 🏗️ Architecture and Specifications
+    url: https://github.com/hcsolutions/careportal/discussions/new?category=architecture-and-specifications
+    about: Please use Discussions for architectural documents and specifications.
+    
