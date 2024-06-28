@@ -36,10 +36,6 @@ body:
         **Classification**: [Update/Epic]
         **Max Engineers**: [1/1.5/2/2.5/3]
         **Size**: [S/M/L]
-
-        **User Value**: High - Any users that require this functionality currently cannot use the system to process their staff annual leave correctly.
-        **Business Value**: Low - Having this feature slightly increases saleability for niche users.
-        **Engineering Value**: None
     validations:
       required: true
   - type: textarea
