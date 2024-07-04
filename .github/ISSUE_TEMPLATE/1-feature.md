@@ -7,21 +7,15 @@ assignees: ""
 projects: ["hcsolutions/3"]
 ---
 
-<!-- REMOVE NON-APPLICABLE
-**Discussion:**
-- Link to relevant Discussion
-
-**Freshdesk ticket:**
--->
-
-<!--
 **Prerequisite(s):**
 - #
--->
+
+
+## Business Requirements
 
 <!-- A clear and concise description of what the feature needs to achieve. -->
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 <!-- DELETE UNREQUIRED CLAUSES -->
 
@@ -32,17 +26,18 @@ projects: ["hcsolutions/3"]
 > **AND**
 > **SO**
 
-<!--
-### Business Requirements
+---
 
-%% Provide details about data validations, permissions and any other pertinent business logic. %%
+<!--
+
+%% Provide additional details about data validations, permissions and any other pertinent business logic. %%
 
 ---
 -->
 
 
 <!-- OPTIONAL
-## Design Considerations
+## UX Considerations
 
 %% Include UX / Service Design considerations e.g. where the feature will be accessed from, formatting specifics, non-standard design elements etc. When appropriate - such as when introducing new design patterns or elements - attach design prototypes/wireframes. %%
 -->
