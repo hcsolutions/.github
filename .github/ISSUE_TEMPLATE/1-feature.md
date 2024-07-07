@@ -15,7 +15,7 @@ projects: ["hcsolutions/3"]
 
 <!-- A clear and concise description of what the feature needs to achieve. -->
 
-### Acceptance Criteria
+**Acceptance Criteria:**
 
 <!-- DELETE UNREQUIRED CLAUSES -->
 
@@ -26,14 +26,7 @@ projects: ["hcsolutions/3"]
 > **AND**
 > **SO**
 
----
-
-<!--
-
-%% Provide additional details about data validations, permissions and any other pertinent business logic. %%
-
----
--->
+<!-- Provide additional details about data validations, permissions and any other pertinent business logic. -->
 
 
 <!-- OPTIONAL
