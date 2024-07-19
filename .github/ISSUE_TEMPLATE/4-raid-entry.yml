@@ -1,0 +1,60 @@
+name: 🚨 RAID Entry
+description: Identify factors that can impact carePORTAL and the wider HCMS digital programme.
+labels: ["🚨 RAID"]
+projects: ["hcsolutions/4"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The RAID log is used for tracking project risks, assumptions, issues, and dependencies. The key elements of the RAID log are:
+
+        - **Risks** - Potential events or vulnerabilities that might negatively impact the programme. 
+        - **Assumptions** - Factors assumed to be true for programme success.
+        - **Issues** - Current problems requiring resolution.
+        - **Dependencies** - Tasks, processes or deliverables underpinning programme success.
+  - type: textarea
+      attributes:
+        label: Description
+        description: |
+          Provide a brief explanation of the item, clearly stating each risk, assumption, issue, or dependency.
+  - type: textarea
+      attributes:
+        label: Impact
+        description: |
+          Summarize the potential or actual impact of the item on the project. The impact might include potential delays, additional costs, or other adverse effects.
+  - type: dropdown
+    attributes:
+      label: Suggested Owner
+      description: Suggest the role responsible for managing or resolving the item. 
+      multiple: true
+      options:
+        - Product Owner
+        - Delivery Manager
+        - Technical Architect
+        - Business Analyst
+        - Software Engineer
+        - Application Support Engineer
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Suggested Assignee
+      description: Suggest the role responsible for carrying out the work neccessary for resolving the item (if distinct from suggested owner). 
+      multiple: true
+      options:
+        - Product Owner
+        - Delivery Manager
+        - Technical Architect
+        - Business Analyst
+        - Software Engineer
+        - Application Support Engineer
+    validations:
+      required: false
+  - type: textarea
+      attributes:
+        label: TODO - Continue...
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > Don't forget to set the project item attributes once the issue has been created.
