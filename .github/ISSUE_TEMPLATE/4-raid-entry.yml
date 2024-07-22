@@ -52,7 +52,8 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: TODO - Continue...
+      label: Action Plan
+      description: Outline the steps needed to manage or resolve the item. This section should provide a clear path for addressing the item and might include deadlines for completion.
   - type: markdown
     attributes:
       value: |
