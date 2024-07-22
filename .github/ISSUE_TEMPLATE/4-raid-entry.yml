@@ -13,10 +13,10 @@ body:
         - **Issues** - Current problems requiring resolution.
         - **Dependencies** - Tasks, processes or deliverables underpinning programme success.
   - type: textarea
-      attributes:
-        label: Description
-        description: |
-          Provide a brief explanation of the item, clearly stating each risk, assumption, issue, or dependency.
+    attributes:
+      label: Description
+      description: |
+        Provide a brief explanation of the item, clearly stating each risk, assumption, issue, or dependency.
   - type: textarea
     attributes:
       label: Impact
@@ -51,8 +51,8 @@ body:
     validations:
       required: false
   - type: textarea
-      attributes:
-        label: TODO - Continue...
+    attributes:
+      label: TODO - Continue...
   - type: markdown
     attributes:
       value: |
