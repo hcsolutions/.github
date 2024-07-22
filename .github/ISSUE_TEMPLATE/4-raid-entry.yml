@@ -18,10 +18,10 @@ body:
         description: |
           Provide a brief explanation of the item, clearly stating each risk, assumption, issue, or dependency.
   - type: textarea
-      attributes:
-        label: Impact
-        description: |
-          Summarize the potential or actual impact of the item on the project. The impact might include potential delays, additional costs, or other adverse effects.
+    attributes:
+      label: Impact
+      description: |
+        Summarize the potential or actual impact of the item on the project. The impact might include potential delays, additional costs, or other adverse effects.
   - type: dropdown
     attributes:
       label: Suggested Owner
