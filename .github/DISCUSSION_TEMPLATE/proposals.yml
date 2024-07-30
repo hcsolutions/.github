@@ -2,10 +2,69 @@ body:
   - type: markdown
     attributes:
       value: |
-        > [!IMPORTANT]
-        > This template and the underlying discussion category is deprecated in favour of the [proposal issue template](https://github.com/hcsolutions/careportal/issues/new?assignees=&labels=%F0%9F%93%9D+planning&projects=hcsolutions%2F8&template=1-proposal.yml&title=%5BProposal%5D+).
-        >
-        > This category will be removed once all existing discussion-based proposals have been converted into issues.
+        ## Proposals
+
+        This form provides a **template** for proposal. It is intended to provide a structured format but should be adapted to provide additional detail where necessary.
+
+        In lieu of internal links (currently a limitation of Discussions), it is recommended that particularly large sections are wrapped in an expandable `<details>` element, like so:
+        ```md
+        <details><summary>See more...</summary>
+
+        Expandable content (with a blank line separating from the opening/closing tags)
+
+        </details>
+        ```
+  - type: input
+    id: tracker-issue
+    attributes:
+      label: Issue
+      description: |
+        Link to this proposal's associated issue, for tracking and priorisation purposes.
+      value: "#"
   - type: textarea
     attributes:
-      label: IGNORE
+      label: Background
+      description: |
+        Summarise the reason for the proposal.
+
+        _The heading for this section can be removed._
+  - type: textarea
+    attributes:
+      label: Value
+      description: |
+        Summarise the value offered to users, the business and the team by the proposed work.
+      value: |
+        **User:**
+        **Business:**
+        **Engineering:**
+
+        ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > Remember to assign the "User Value", "Business Value" and "Team Value" project fields on the associated issue.
+  - type: textarea
+    attributes:
+      label: Proposal
+      description: |
+        Explain your proposal in detail and provide options for approaches if needed.
+
+        _This heading should be adjusted to a H2._
+  - type: textarea
+    attributes:
+      label: Scope
+      description: |
+        List the proposed scope of the work in the form of issue titles.
+      value: |
+        - <!-- Issue -->
+  - type: markdown
+    attributes:
+      label: Questions
+      value: |
+        ### Questions
+        
+        Any questions you have for either the engineering team or product team should be added as individual threads in this discussion.
+        This is to encourage open collaboration towards agreed conclusions.
