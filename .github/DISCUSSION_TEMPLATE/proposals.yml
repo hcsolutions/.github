@@ -62,7 +62,6 @@ body:
         - <!-- Issue -->
   - type: markdown
     attributes:
-      label: Questions
       value: |
         ### Questions
         
