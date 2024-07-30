@@ -6,3 +6,6 @@ body:
         > This template and the underlying discussion category is deprecated in favour of the [proposal issue template](https://github.com/hcsolutions/careportal/issues/new?assignees=&labels=%F0%9F%93%9D+planning&projects=hcsolutions%2F8&template=1-proposal.yml&title=%5BProposal%5D+).
         >
         > This category will be removed once all existing discussion-based proposals have been converted into issues.
+  - type: textarea
+    attributes:
+      label: IGNORE
