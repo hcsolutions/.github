@@ -21,6 +21,13 @@ body:
         ```
   - type: textarea
     attributes:
+      label: Background
+      description: |
+        Summarise the reason for the proposal.
+
+        _The heading for this section can be removed._
+  - type: textarea
+    attributes:
       label: Value
       description: |
         Summarise the value offered to users, the business and the team by the proposed work.
@@ -28,6 +35,8 @@ body:
         **User:**
         **Business:**
         **Engineering:**
+
+        ---
     validations:
       required: true
   - type: markdown
@@ -37,14 +46,11 @@ body:
         > Remember to assign the "User Value", "Business Value" and "Team Value" project fields once the issue has been created.
   - type: textarea
     attributes:
-      label: Summary
-      description: |
-        Summarise the reason for the proposal.
-  - type: textarea
-    attributes:
       label: Proposal
       description: |
         Explain your proposal in detail and provide options for approaches if needed.
+
+        _This heading should be adjusted to a H2._
   - type: textarea
     attributes:
       label: Scope
