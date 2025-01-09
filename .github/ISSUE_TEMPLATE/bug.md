@@ -1,8 +1,8 @@
 ---
-name: 🐛 Bug
+name: Bug 🐛
 about: "Capture requirements for a suspected bug."
 title: ""
-labels: ["🐛 bug"]
+labels: ["bug 🐛"]
 assignees: ""
 projects: ["hcsolutions/6"]
 ---
