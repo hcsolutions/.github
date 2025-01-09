@@ -4,7 +4,7 @@ about: "Capture, iterate and track high-level requirements for a new project, li
 title: ""
 labels: ["🌈 epic"]
 assignees: ""
-projects: []
+projects: ["hcsolutions/3"]
 ---
 
 <!-- Overview -->

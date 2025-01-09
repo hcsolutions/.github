@@ -2,7 +2,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Architecture and Specifications
+        ## Specifications
 
         This form provides a **template** for the architectural specification of a module, model or library. It is intended to provide a structured way to document the architecture and specifications of a planned workpiece.
 

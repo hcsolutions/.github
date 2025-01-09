@@ -2,22 +2,21 @@
 name: ✨ Feature
 about: "Capture requirements for a new feature."
 title: ""
-labels: ["feature"]
+labels: ["✨ feature"]
 assignees: ""
 projects: ["hcsolutions/3"]
 ---
 
-**Prerequisite(s):**
-- #
-
+<!-- OPTIONAL
+> **Prerequisite(s):**
+> - #
+-->
 
 ## Business Requirements
 
 <!-- A clear and concise description of what the feature needs to achieve. -->
 
-**Acceptance Criteria:**
-
-<!-- DELETE UNREQUIRED CLAUSES -->
+**User Stories:**
 
 > **AS A** user
 > **GIVEN**
@@ -26,19 +25,28 @@ projects: ["hcsolutions/3"]
 > **AND**
 > **SO**
 
-<!-- Provide additional details about data validations, permissions and any other pertinent business logic. -->
+<!-- OPTIONAL
+## Additional details
 
+%% Provide additional details about data validations, permissions and any other pertinent business logic. %%
+-->
 
 <!-- OPTIONAL
 ## UX Considerations
 
 %% Include UX / Service Design considerations e.g. where the feature will be accessed from, formatting specifics, non-standard design elements etc. When appropriate - such as when introducing new design patterns or elements - attach design prototypes/wireframes. %%
+
+- [ ] Task
+- [ ] Task
 -->
 
 <!--
 ## Technical Requirements
 
 %% Will this rely on a new or existing service? Any new concerns? %%
+
+- [ ] Task
+- [ ] Task
 -->
 
 <!-- OPTIONAL

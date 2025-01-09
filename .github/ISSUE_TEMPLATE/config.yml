@@ -1,8 +1,4 @@
 contact_links:
-  - name: 💭 Considerations
-    url: https://github.com/orgs/hcsolutions/projects/8/views/1
-    about: Please raise light-touch ideas as draft issues in the backlog for prioritisation.
-  - name: 🏗️ Architecture and Specifications
-    url: https://github.com/hcsolutions/careportal/discussions/new?category=architecture-and-specifications
-    about: Please use Discussions for architectural documents and specifications.
-    
+  - name: ⚪ Proposals/Suggestions/Requests/Questions
+    url: https://github.com/orgs/hcsolutions/projects/6/views/14
+    about: For any of the above, please add a draft issue within `LOGGED` in the Backlog
