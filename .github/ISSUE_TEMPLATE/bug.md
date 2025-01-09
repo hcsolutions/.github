@@ -2,7 +2,7 @@
 name: 🐛 Bug
 about: "Capture requirements for a suspected bug."
 title: ""
-labels: ["bug", "timebox"]
+labels: ["🐛%20bug"]
 assignees: ""
 projects: ["hcsolutions/3"]
 ---
