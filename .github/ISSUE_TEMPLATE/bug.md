@@ -4,7 +4,7 @@ about: "Capture requirements for a suspected bug."
 title: ""
 labels: ["🐛 bug"]
 assignees: ""
-projects: ["hcsolutions/3"]
+projects: ["hcsolutions/6"]
 ---
 
 ## Description

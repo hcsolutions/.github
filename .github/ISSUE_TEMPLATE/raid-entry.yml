@@ -1,7 +1,7 @@
 name: 🚨 RAID Entry
 description: Identify factors that can impact carePORTAL and the wider HCMS digital programme.
 labels: ["🚨 risk"]
-projects: ["hcsolutions/3"]
+projects: ["hcsolutions/6"]
 body:
   - type: markdown
     attributes:

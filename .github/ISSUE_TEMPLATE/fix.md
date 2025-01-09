@@ -4,7 +4,7 @@ about: "Capture requirements for a fix (usually relating to a bug that cannot be
 title: ""
 labels: ["🦋 fix"]
 assignees: ""
-projects: ["hcsolutions/3"]
+projects: ["hcsolutions/6"]
 ---
 
 > **Related:**

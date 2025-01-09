@@ -4,7 +4,7 @@ about: "Capture requirements for a new feature."
 title: ""
 labels: ["✨ feature"]
 assignees: ""
-projects: ["hcsolutions/3"]
+projects: ["hcsolutions/6"]
 ---
 
 <!-- OPTIONAL
